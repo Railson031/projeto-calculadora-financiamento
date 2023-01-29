@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.calculadora {
+  width: 580px;
+  background-image: linear-gradient(to bottom, #0033CC, #0099CC);
+  margin: 0 auto;
+  margin-top: 30px;
+  border: 4px solid #F0DF46;
+  border-radius: 5px;
+  padding: 50px;
+  color: #FFFFFF;
+}
+
+.calculadora header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 35px;
+  margin-bottom: 40px;
+}
+
+.calculadora header h2 {
+  font-size: 32px;
+}
+
+.calculadora main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.calculadora main div {
+  flex-basis: 45%;
+  flex-grow: 1;
+}
+
+.calculadora main div input {
+  width: 100%;
+  height: 40px;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  font-size: 20px;
+  border: none;
+}
+
+.calculadora .valor-financiado {
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 40px;
+}
+
+.calculadora .valor-parcela {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E9E12A;
+  border-radius: 5px;
+  height: 70px;
+  color: #000000;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.calculadora main label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.calculadora button {
+  background-color: #131F8A;
+  width: 100%;
+  height: 70px;
+  border: none;
+  cursor: pointer;
+  color: #FFFFFF;
+  font-size: 24px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  transition: all 2s;
+}
+
+.calculadora button:hover {
+  background-color: #0099CC;
+  border: 4px solid #131F8A;
+}
